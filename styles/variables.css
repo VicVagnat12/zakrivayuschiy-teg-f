@@ -10,8 +10,8 @@
   --text-shadow: rgba(255, 255, 255, 0.5);
   --core-color: #fff;
   --contour-color: #000;
-  --body-color: #FF0000;
-  --sparks-color: #FF0000;
+  --body-color: #ff0000;
+  --sparks-color: #ff0000;
   --bg-image: repeating-linear-gradient(
       to right,
       #d3d3d3,
