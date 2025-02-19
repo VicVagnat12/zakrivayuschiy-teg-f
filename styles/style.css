@@ -109,7 +109,6 @@ button {
 
 .label {
   position: absolute;
-  right: 100px;
   color: rgba(0, 0, 0, 0.5);
   text-shadow: -1px 0 var(--text-shadow), 0 1px var(--text-shadow),
     1px 0 var(--text-shadow), 0 -1px var(--text-shadow);
@@ -117,7 +116,7 @@ button {
   right: 27px;
   top: 27px;
   font-family: var(--font-accent, fantasy);
-  font-weight: var(--font-weight-text);
+  font-weight: var(--font-weight-text, 400);
   font-size: 14px;
   line-height: 14px;
   letter-spacing: 0%;
@@ -187,7 +186,7 @@ button {
 
 .button__text {
   font-family: var(--font-accent, fantasy);
-  font-weight: var(--font-weight-text);
+  font-weight: var(--font-weight-text, 400);
   font-size: 14px;
   line-height: 12.6px;
   letter-spacing: 0%;
@@ -252,7 +251,7 @@ body:has(.dialog[open]) {
   border: 2px solid #000;
   padding: 10px;
   font-family: var(--font-accent, fantasy);
-  font-weight: var(--font-weight-text);
+  font-weight: var(--font-weight-text, 400);
   font-size: 14px;
   line-height: 12.6px;
   letter-spacing: 0%;
